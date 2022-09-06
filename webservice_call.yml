@@ -7,4 +7,4 @@
         method: GET
       register: results
     - debug: var=results.json.value
-    - debug: var=nutanix_username
+    - debug: var=network
