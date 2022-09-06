@@ -1,4 +1,3 @@
----
 - name: Everyone loves a good Chuck Norris joke
   uri:
     url: https://api.chucknorris.io/jokes/random
