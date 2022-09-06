@@ -6,6 +6,5 @@
         url: https://api.chucknorris.io/jokes/random
         method: GET
       register: results
-      when: nutanix_username=="ciccio"
     - debug: var=results.json.value
     - debug: var=nutanix_username
